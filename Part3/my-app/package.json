@@ -9,6 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "jest": {
+    "preset": "jest-expo"
+  },
   "dependencies": {
     "@apollo/client": "^3.13.4",
     "@expo/metro-config": "^0.17.4",
